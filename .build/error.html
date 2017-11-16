@@ -1,0 +1,552 @@
+<!DOCTYPE html>
+<html class="no-js">
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+        <title></title>
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width">
+        <link rel="stylesheet" href="/static/css/bootstrap.css">
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+        <style>
+            body {
+                padding-top: 50px;
+                padding-bottom: 20px;
+            }
+            .container {
+                padding-top: 50px;
+                display: flex;
+                flex-wrap: wrap;
+            }
+            .container>.thumbnail>.panel>.panel-heading{
+                font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
+            }
+
+        </style>
+        <link rel="stylesheet" href="/static/css/bootstrap-theme.css">
+        <link rel="stylesheet" href="/static/css/main.css">
+        <script src="/static/js/vendor/modernizr-2.6.2.js"></script>
+    </head>
+
+    <body>
+    <div class="navbar navbar-inverse navbar-fixed-top">
+        <div class="navbar-header">
+          <a class="navbar-brand" href="/index.html">Movies Web App</a>
+        </div>
+    </div>
+
+    
+<div class="jumbotron">
+  <div class="container">
+    <h1>We're sorry!</h1>
+    <p>The page <b id="url"></b> could not be found on this server.</p>
+  </div>
+</div>
+
+    <div class="container">
+    
+        <div class="col col-xs-6 col-sm-4 col-md-2 thumbnail" style="border: none">
+            <h4><span class="glyphicon glyphicon-star-empty" id="span1" onclick="storeBookmark(1)" aria-hidden="true" style="float: right"></span></h4>
+            <div  class="panel panel-default"  align="center" style="margin-bottom: 0px" data-toggle="modal" data-target="#myModal1">
+                <div class="panel-heading" style="height: 50px;padding:5px;font-family:"Helvetica Neue",Helvetica,Arial,sans-serif;
+                ">The LEGO Ninjago Movie
+                </div>
+
+                <div class="panel-body" style="height: 260px;padding:0;"><img src="https://images-na.ssl-images-amazon.com/images/M/MV5BMTYxNjIxNzM5Nl5BMl5BanBnXkFtZTgwMzg5NzY2MjI@._V1_SY1000_CR0,0,674,1000_AL_.jpg" class="img-fluid rounded" width="100%"></div>
+                <div class="panel-footer">2017</div>
+            </div>
+            <div class="modal fade" id="myModal1" role="dialog">
+                <div class="modal-dialog">
+
+                    <div class="modal-content">
+                        <div class="modal-header">
+                            <button type="button" class="close" data-dismiss="modal">&times;</button>
+                            <h4 class="modal-title">The LEGO Ninjago Movie (2017)</h4>
+                        </div>
+                        <div class="modal-body">
+                            <p>Six young ninjas Lloyd, Jay, Kai, Cole, Zane and Nya are tasked with defending their island home, called Ninjago. By night, they&#39;re gifted warriors, using their skills and awesome fleet of vehicles to fight villains and monsters. By day, they&#39;re ordinary teens struggling against their greatest enemy: high school</p>
+                            Stars:
+                            <ul>
+                                
+                                <li>Jackie Chan</li>
+                                
+                                <li>Dave Franco</li>
+                                
+                                <li>Fred Armisen</li>
+                                
+                            </ul>
+                            <p>
+                                <span class="label label-default">Animation</span>
+                            </p>
+                        </div>
+                        <div class="modal-footer">
+                            <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+    
+        <div class="col col-xs-6 col-sm-4 col-md-2 thumbnail" style="border: none">
+            <h4><span class="glyphicon glyphicon-star-empty" id="span2" onclick="storeBookmark(2)" aria-hidden="true" style="float: right"></span></h4>
+            <div  class="panel panel-default"  align="center" style="margin-bottom: 0px" data-toggle="modal" data-target="#myModal2">
+                <div class="panel-heading" style="height: 50px;padding:5px;font-family:"Helvetica Neue",Helvetica,Arial,sans-serif;
+                ">Silver Linings
+                </div>
+
+                <div class="panel-body" style="height: 260px;padding:0;"><img src="https://images-na.ssl-images-amazon.com/images/M/MV5BMTM2MTI5NzA3MF5BMl5BanBnXkFtZTcwODExNTc0OA@@._V1_SY1000_CR0,0,674,1000_AL_.jpg" class="img-fluid rounded" width="100%"></div>
+                <div class="panel-footer">2012</div>
+            </div>
+            <div class="modal fade" id="myModal2" role="dialog">
+                <div class="modal-dialog">
+
+                    <div class="modal-content">
+                        <div class="modal-header">
+                            <button type="button" class="close" data-dismiss="modal">&times;</button>
+                            <h4 class="modal-title">Silver Linings (2012)</h4>
+                        </div>
+                        <div class="modal-body">
+                            <p>After a stint in a mental institution, former teacher Pat Solitano moves back in with his parents and tries to reconcile with his ex-wife. Things get more challenging when Pat meets Tiffany, a mysterious girl with problems of her own</p>
+                            Stars:
+                            <ul>
+                                
+                                <li>Bradley Cooper</li>
+                                
+                                <li>Jennifer Lawrence</li>
+                                
+                                <li>Robert De Niro</li>
+                                
+                            </ul>
+                            <p>
+                                <span class="label label-default">Drama</span>
+                            </p>
+                        </div>
+                        <div class="modal-footer">
+                            <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+    
+        <div class="col col-xs-6 col-sm-4 col-md-2 thumbnail" style="border: none">
+            <h4><span class="glyphicon glyphicon-star-empty" id="span3" onclick="storeBookmark(3)" aria-hidden="true" style="float: right"></span></h4>
+            <div  class="panel panel-default"  align="center" style="margin-bottom: 0px" data-toggle="modal" data-target="#myModal3">
+                <div class="panel-heading" style="height: 50px;padding:5px;font-family:"Helvetica Neue",Helvetica,Arial,sans-serif;
+                ">James Bond 007 - Spectre
+                </div>
+
+                <div class="panel-body" style="height: 260px;padding:0;"><img src="https://images-na.ssl-images-amazon.com/images/M/MV5BMjM2Nzg4MzkwOF5BMl5BanBnXkFtZTgwNzA0OTE3NjE@._V1_.jpg" class="img-fluid rounded" width="100%"></div>
+                <div class="panel-footer">2015</div>
+            </div>
+            <div class="modal fade" id="myModal3" role="dialog">
+                <div class="modal-dialog">
+
+                    <div class="modal-content">
+                        <div class="modal-header">
+                            <button type="button" class="close" data-dismiss="modal">&times;</button>
+                            <h4 class="modal-title">James Bond 007 - Spectre (2015)</h4>
+                        </div>
+                        <div class="modal-body">
+                            <p>A cryptic message from Bond&#39;s past sends him on a trail to uncover a sinister organization. While M battles political forces to keep the secret service alive, Bond peels back the layers of deceit to reveal the terrible truth behind SPECTRE</p>
+                            Stars:
+                            <ul>
+                                
+                                <li>Daniel Craig</li>
+                                
+                                <li>Christoph Waltz</li>
+                                
+                                <li>Léa Seydoux</li>
+                                
+                            </ul>
+                            <p>
+                                <span class="label label-default">Action</span>
+                            </p>
+                        </div>
+                        <div class="modal-footer">
+                            <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+    
+        <div class="col col-xs-6 col-sm-4 col-md-2 thumbnail" style="border: none">
+            <h4><span class="glyphicon glyphicon-star-empty" id="span4" onclick="storeBookmark(4)" aria-hidden="true" style="float: right"></span></h4>
+            <div  class="panel panel-default"  align="center" style="margin-bottom: 0px" data-toggle="modal" data-target="#myModal4">
+                <div class="panel-heading" style="height: 50px;padding:5px;font-family:"Helvetica Neue",Helvetica,Arial,sans-serif;
+                ">Kingdom of Heaven
+                </div>
+
+                <div class="panel-body" style="height: 260px;padding:0;"><img src="https://images-na.ssl-images-amazon.com/images/M/MV5BMjE2MTIwNjg0MV5BMl5BanBnXkFtZTcwNjAxODIzMw@@._V1_SY1000_CR0,0,655,1000_AL_.jpg" class="img-fluid rounded" width="100%"></div>
+                <div class="panel-footer">2005</div>
+            </div>
+            <div class="modal fade" id="myModal4" role="dialog">
+                <div class="modal-dialog">
+
+                    <div class="modal-content">
+                        <div class="modal-header">
+                            <button type="button" class="close" data-dismiss="modal">&times;</button>
+                            <h4 class="modal-title">Kingdom of Heaven (2005)</h4>
+                        </div>
+                        <div class="modal-body">
+                            <p>Balian of Ibelin travels to Jerusalem during the crusades of the 12th century, and there he finds himself as the defender of the city and its people</p>
+                            Stars:
+                            <ul>
+                                
+                                <li>Orlando Bloom</li>
+                                
+                                <li>Eva Green</li>
+                                
+                                <li>Liam Neeson</li>
+                                
+                            </ul>
+                            <p>
+                                <span class="label label-default">Action</span>
+                            </p>
+                        </div>
+                        <div class="modal-footer">
+                            <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+    
+        <div class="col col-xs-6 col-sm-4 col-md-2 thumbnail" style="border: none">
+            <h4><span class="glyphicon glyphicon-star-empty" id="span5" onclick="storeBookmark(5)" aria-hidden="true" style="float: right"></span></h4>
+            <div  class="panel panel-default"  align="center" style="margin-bottom: 0px" data-toggle="modal" data-target="#myModal5">
+                <div class="panel-heading" style="height: 50px;padding:5px;font-family:"Helvetica Neue",Helvetica,Arial,sans-serif;
+                ">Forrest Gump
+                </div>
+
+                <div class="panel-body" style="height: 260px;padding:0;"><img src="https://images-na.ssl-images-amazon.com/images/M/MV5BMjE2MTIwNjg0MV5BMl5BanBnXkFtZTcwNjAxODIzMw@@._V1_SY1000_CR0,0,655,1000_AL_.jpg" class="img-fluid rounded" width="100%"></div>
+                <div class="panel-footer">1994</div>
+            </div>
+            <div class="modal fade" id="myModal5" role="dialog">
+                <div class="modal-dialog">
+
+                    <div class="modal-content">
+                        <div class="modal-header">
+                            <button type="button" class="close" data-dismiss="modal">&times;</button>
+                            <h4 class="modal-title">Forrest Gump (1994)</h4>
+                        </div>
+                        <div class="modal-body">
+                            <p>JFK, LBJ, Vietnam, Watergate, and other history unfold through the perspective of an Alabama man with an IQ of 75</p>
+                            Stars:
+                            <ul>
+                                
+                                <li>Tom Hanks</li>
+                                
+                                <li>Robin Wright</li>
+                                
+                                <li>Gary Sinise</li>
+                                
+                            </ul>
+                            <p>
+                                <span class="label label-default">Action</span>
+                            </p>
+                        </div>
+                        <div class="modal-footer">
+                            <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+    
+        <div class="col col-xs-6 col-sm-4 col-md-2 thumbnail" style="border: none">
+            <h4><span class="glyphicon glyphicon-star-empty" id="span6" onclick="storeBookmark(6)" aria-hidden="true" style="float: right"></span></h4>
+            <div  class="panel panel-default"  align="center" style="margin-bottom: 0px" data-toggle="modal" data-target="#myModal6">
+                <div class="panel-heading" style="height: 50px;padding:5px;font-family:"Helvetica Neue",Helvetica,Arial,sans-serif;
+                ">Titanic
+                </div>
+
+                <div class="panel-body" style="height: 260px;padding:0;"><img src="https://images-na.ssl-images-amazon.com/images/M/MV5BMDdmZGU3NDQtY2E5My00ZTliLWIzOTUtMTY4ZGI1YjdiNjk3XkEyXkFqcGdeQXVyNTA4NzY1MzY@._V1_SY1000_CR0,0,671,1000_AL_.jpg" class="img-fluid rounded" width="100%"></div>
+                <div class="panel-footer">1997</div>
+            </div>
+            <div class="modal fade" id="myModal6" role="dialog">
+                <div class="modal-dialog">
+
+                    <div class="modal-content">
+                        <div class="modal-header">
+                            <button type="button" class="close" data-dismiss="modal">&times;</button>
+                            <h4 class="modal-title">Titanic (1997)</h4>
+                        </div>
+                        <div class="modal-body">
+                            <p>A seventeen-year-old aristocrat falls in love with a kind but poor artist aboard the luxurious, ill-fated R.M.S. Titanic</p>
+                            Stars:
+                            <ul>
+                                
+                                <li>Leonardo DiCaprio</li>
+                                
+                                <li>Kate Winslet</li>
+                                
+                                <li>Billy Zane</li>
+                                
+                            </ul>
+                            <p>
+                                <span class="label label-default">Drama</span>
+                            </p>
+                        </div>
+                        <div class="modal-footer">
+                            <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+    
+        <div class="col col-xs-6 col-sm-4 col-md-2 thumbnail" style="border: none">
+            <h4><span class="glyphicon glyphicon-star-empty" id="span7" onclick="storeBookmark(7)" aria-hidden="true" style="float: right"></span></h4>
+            <div  class="panel panel-default"  align="center" style="margin-bottom: 0px" data-toggle="modal" data-target="#myModal7">
+                <div class="panel-heading" style="height: 50px;padding:5px;font-family:"Helvetica Neue",Helvetica,Arial,sans-serif;
+                ">The Man in the Iron Mask
+                </div>
+
+                <div class="panel-body" style="height: 260px;padding:0;"><img src="https://images-na.ssl-images-amazon.com/images/M/MV5BZjM2YzcxMmQtOTc2Mi00YjdhLWFlZjUtNmFmMDQzYzU2YTk5L2ltYWdlXkEyXkFqcGdeQXVyNTAyODkwOQ@@._V1_SY1000_CR0,0,666,1000_AL_.jpg" class="img-fluid rounded" width="100%"></div>
+                <div class="panel-footer">1998</div>
+            </div>
+            <div class="modal fade" id="myModal7" role="dialog">
+                <div class="modal-dialog">
+
+                    <div class="modal-content">
+                        <div class="modal-header">
+                            <button type="button" class="close" data-dismiss="modal">&times;</button>
+                            <h4 class="modal-title">The Man in the Iron Mask (1998)</h4>
+                        </div>
+                        <div class="modal-body">
+                            <p>The cruel King Louis XIV of France has a secret twin brother who he keeps imprisoned. Can the twin be substituted for the real king?</p>
+                            Stars:
+                            <ul>
+                                
+                                <li>Leonardo DiCaprio</li>
+                                
+                                <li>Jeremy Irons</li>
+                                
+                                <li>John Malkovich</li>
+                                
+                            </ul>
+                            <p>
+                                <span class="label label-default">Action</span>
+                            </p>
+                        </div>
+                        <div class="modal-footer">
+                            <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+    
+        <div class="col col-xs-6 col-sm-4 col-md-2 thumbnail" style="border: none">
+            <h4><span class="glyphicon glyphicon-star-empty" id="span8" onclick="storeBookmark(8)" aria-hidden="true" style="float: right"></span></h4>
+            <div  class="panel panel-default"  align="center" style="margin-bottom: 0px" data-toggle="modal" data-target="#myModal8">
+                <div class="panel-heading" style="height: 50px;padding:5px;font-family:"Helvetica Neue",Helvetica,Arial,sans-serif;
+                ">Liar Liar
+                </div>
+
+                <div class="panel-body" style="height: 260px;padding:0;"><img src="https://images-na.ssl-images-amazon.com/images/M/MV5BYjZlYmJjYWYtZDM0NS00YmZlLWIyMTAtMDY5ZTNjZTgwMDhjXkEyXkFqcGdeQXVyMTQxNzMzNDI@._V1_SY1000_CR0,0,676,1000_AL_.jpg" class="img-fluid rounded" width="100%"></div>
+                <div class="panel-footer">1997</div>
+            </div>
+            <div class="modal fade" id="myModal8" role="dialog">
+                <div class="modal-dialog">
+
+                    <div class="modal-content">
+                        <div class="modal-header">
+                            <button type="button" class="close" data-dismiss="modal">&times;</button>
+                            <h4 class="modal-title">Liar Liar (1997)</h4>
+                        </div>
+                        <div class="modal-body">
+                            <p>A fast-track lawyer can&#39;t lie for 24 hours due to his son&#39;s birthday wish after he turns his son down for the last time</p>
+                            Stars:
+                            <ul>
+                                
+                                <li>Jim Carrey</li>
+                                
+                                <li>Maura Tierney</li>
+                                
+                                <li>Justin Cooper</li>
+                                
+                            </ul>
+                            <p>
+                                <span class="label label-default">Comedy</span>
+                            </p>
+                        </div>
+                        <div class="modal-footer">
+                            <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+    
+        <div class="col col-xs-6 col-sm-4 col-md-2 thumbnail" style="border: none">
+            <h4><span class="glyphicon glyphicon-star-empty" id="span9" onclick="storeBookmark(9)" aria-hidden="true" style="float: right"></span></h4>
+            <div  class="panel panel-default"  align="center" style="margin-bottom: 0px" data-toggle="modal" data-target="#myModal9">
+                <div class="panel-heading" style="height: 50px;padding:5px;font-family:"Helvetica Neue",Helvetica,Arial,sans-serif;
+                ">Rush Hour 3
+                </div>
+
+                <div class="panel-body" style="height: 260px;padding:0;"><img src="https://images-na.ssl-images-amazon.com/images/M/MV5BMTA0Nzg5NjQ0MDBeQTJeQWpwZ15BbWU3MDE4Mzg5NDE@._V1_.jpg" class="img-fluid rounded" width="100%"></div>
+                <div class="panel-footer">2007</div>
+            </div>
+            <div class="modal fade" id="myModal9" role="dialog">
+                <div class="modal-dialog">
+
+                    <div class="modal-content">
+                        <div class="modal-header">
+                            <button type="button" class="close" data-dismiss="modal">&times;</button>
+                            <h4 class="modal-title">Rush Hour 3 (2007)</h4>
+                        </div>
+                        <div class="modal-body">
+                            <p>After an attempted assassination on Ambassador Han, Lee and Carter head to Paris to protect a French woman with knowledge of the Triads&#39; secret leaders</p>
+                            Stars:
+                            <ul>
+                                
+                                <li>Jackie Chan</li>
+                                
+                                <li>Chris Tucker</li>
+                                
+                                <li>Max von Sydow</li>
+                                
+                            </ul>
+                            <p>
+                                <span class="label label-default">Comedy</span>
+                            </p>
+                        </div>
+                        <div class="modal-footer">
+                            <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+    
+        <div class="col col-xs-6 col-sm-4 col-md-2 thumbnail" style="border: none">
+            <h4><span class="glyphicon glyphicon-star-empty" id="span10" onclick="storeBookmark(10)" aria-hidden="true" style="float: right"></span></h4>
+            <div  class="panel panel-default"  align="center" style="margin-bottom: 0px" data-toggle="modal" data-target="#myModal10">
+                <div class="panel-heading" style="height: 50px;padding:5px;font-family:"Helvetica Neue",Helvetica,Arial,sans-serif;
+                ">Gladiator
+                </div>
+
+                <div class="panel-body" style="height: 260px;padding:0;"><img src="https://images-na.ssl-images-amazon.com/images/M/MV5BMDliMmNhNDEtODUyOS00MjNlLTgxODEtN2U3NzIxMGVkZTA1L2ltYWdlXkEyXkFqcGdeQXVyNjU0OTQ0OTY@._V1_SY1000_CR0,0,675,1000_AL_.jpg" class="img-fluid rounded" width="100%"></div>
+                <div class="panel-footer">2000</div>
+            </div>
+            <div class="modal fade" id="myModal10" role="dialog">
+                <div class="modal-dialog">
+
+                    <div class="modal-content">
+                        <div class="modal-header">
+                            <button type="button" class="close" data-dismiss="modal">&times;</button>
+                            <h4 class="modal-title">Gladiator (2000)</h4>
+                        </div>
+                        <div class="modal-body">
+                            <p>When a Roman General is betrayed, and his family murdered by an emperor&#39;s corrupt son, he comes to Rome as a gladiator to seek revenge</p>
+                            Stars:
+                            <ul>
+                                
+                                <li>Russell Crowe</li>
+                                
+                                <li>Joaquin Phoenix</li>
+                                
+                                <li>Connie Nielsen</li>
+                                
+                            </ul>
+                            <p>
+                                <span class="label label-default">Action</span>
+                            </p>
+                        </div>
+                        <div class="modal-footer">
+                            <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+    
+</div>
+    <script>
+        function getBookmarks() {
+            var a=localStorage.getItem('movies');
+            var flattened = [];
+            if(a.length > 0) {
+                for(var i=0;i<a.length;i++){
+                    if(Array.isArray(a[i]))
+                        flattened.concat(flatten(a[i]));
+                    else
+                        if(!isNaN(a[i])) flattened.push(a[i]);
+                }
+            }
+            return flattened;
+        }
+
+        (function() {
+            var bookmarks=getBookmarks()
+            for(var i=0;i<bookmarks.length;i++){
+                markStar(bookmarks[i]);
+            }
+        })();
+
+        function markStar(movieId) {
+            var starSelectorClasses=document.getElementById("span"+movieId).classList;
+            starSelectorClasses.remove('glyphicon-star-empty');
+            starSelectorClasses.add('glyphicon-star');
+        }
+        function storeBookmark(movieId) {
+            var starSelectorClasses=document.getElementById("span"+movieId).classList;
+            if(starSelectorClasses.contains("glyphicon-star-empty")){
+                markStar(movieId);
+                var a = [];
+                var local=JSON.parse(localStorage.getItem('movies'));
+                if(local!=null) a.push(local);
+                a.push(JSON.parse(movieId))
+                localStorage.setItem('movies', JSON.stringify(a));
+            }else{
+                removeBookmark(movieId);
+            }
+        }
+
+        function removeBookmark(movieId) {
+            var bookmarks=getBookmarks();
+            var index = bookmarks.indexOf(String(movieId));
+            if (index > -1) bookmarks.splice(index, 1);
+            var starSelectorClasses=document.getElementById("span"+movieId).classList;
+            starSelectorClasses.remove('glyphicon-star');
+            starSelectorClasses.add('glyphicon-star-empty');
+            localStorage.setItem('movies', JSON.stringify(bookmarks));
+
+        }
+    </script>
+    <script src="/static/js/vendor/jquery-1.10.1.js"></script>
+    <script src="/static/js/vendor/bootstrap.js"></script>
+    <script src="/static/js/main.js"></script>
+  </body>
+
+  
+  <script type="text/javascript" charset="utf-8">
+    $(document).ready(function() {
+
+      // Add the missing url to the text
+      $("#url").text(window.location.pathname);
+
+      // Fix the css locations dynamically
+      $("head link").each(function() {
+        for (var i=0; i<window.location.pathname.split(/\//g).length-2; i++)
+          $(this).attr("href", "../" + $(this).attr("href"));
+      });
+    })
+  </script>
+
+</html>
