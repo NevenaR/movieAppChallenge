@@ -6,9 +6,10 @@
 
 Installation
 ------------------------------
-####Python
+#### Python
 Please go to https://www.python.org/ and download Python 3.5.X or newer.
-####Libraries
+
+#### Libraries
 Open terminal/cmd and navigate to movieApp directory. Make sure you have administator privilegies.
 Type:
 ``` 
